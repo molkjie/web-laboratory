@@ -75,6 +75,13 @@
 // renderSoftList();
 
 
+//change image
+// const firstImage = document.querySelector("#myRoundabout li:first-child img");
+// if (firstImage) {
+//     firstImage.src = "images/bg-soft.png";
+// }
+
+
 //why-us list
 
 // function renderWhyUsList() {
