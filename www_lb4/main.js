@@ -4,8 +4,6 @@
 //   whyUs:["High quality", "Reliable", "Fast"]
 // };
 
-
-
 //current date
 // function updateCurrentDate() {
 //     const dateElement = document.querySelector('.date');
@@ -18,23 +16,17 @@
 //     dateElement.innerHTML = formattedDate.replace(',', '');
 // }
 
-
 // document.addEventListener('DOMContentLoaded', updateCurrentDate);
-
 
 // setInterval(updateCurrentDate, 60000);
 
-
-
 //delete news
-
 
 // const newsSection = document.querySelector('.col1');
 // const toggleButton = document.querySelector('.toggleNewsBtn');
 
 // let newsVisible = true;
 // const newsContent = [...newsSection.children].filter(el => !el.classList.contains('toggleNewsBtn'));
-
 
 // toggleButton.addEventListener('click', () => {
 //     if (newsVisible) {
@@ -47,16 +39,12 @@
 //     newsVisible = !newsVisible;
 // });
 
-
 // toggleButton.textContent = 'Delete';
-
-
-
 
 //soft list
 
 // function renderSoftList() {
- 
+
 //   const softList = document.querySelector(".prof-soft-list");
 
 //  softList.innerHTML = "";
@@ -71,9 +59,13 @@
 //   });
 // }
 
-
 // renderSoftList();
 
+//change image
+// const firstImage = document.querySelector("#myRoundabout li:first-child img");
+// if (firstImage) {
+//     firstImage.src = "images/bg-soft.png";
+// }
 
 //change image
 // const firstImage = document.querySelector("#myRoundabout li:first-child img");
@@ -85,13 +77,12 @@
 //why-us list
 
 // function renderWhyUsList() {
-  
+
 //   const whyUsList = document.querySelector(".list1");
 
 //   whyUsList.innerHTML = "";
 
 //   const sortedWhyUs = dataSite.whyUs.sort();
-
 
 //   sortedWhyUs.forEach((item, index) => {
 //     const li = document.createElement("li");
@@ -102,6 +93,5 @@
 //     whyUsList.appendChild(li);
 //   });
 // }
-
 
 // renderWhyUsList();
