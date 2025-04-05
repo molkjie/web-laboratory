@@ -1,5 +1,5 @@
 // встановлення дати події  через 5 хв
-const eventDate = new Date().getTime() + 5 * 60 * 1000;
+const eventDate = new Date().getTime() + 1 * 60 * 1000;
 
 const countdownInterval = setInterval(updateCountdown, 1000);
 
@@ -23,10 +23,10 @@ function updateCountdown() {
 
   document.getElementById('days').textContent = days
     .toString()
-    .padStart(2, '0');
+    .padStart(2, '0'); 
   document.getElementById('hours').textContent = hours
     .toString()
-    .padStart(2, '0');
+    .padStart(2, '0'); 
   document.getElementById('minutes').textContent = minutes
     .toString()
     .padStart(2, '0');

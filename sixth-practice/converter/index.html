@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Конвертація валют - ПриватБанк API</title>
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Конвертація Валют (ПриватБанк API)</h1>
+    <form id="converter">
+      <label for="date">Дата:</label>
+      <input type="date" id="date" required />
+      <label for="from">З валюти:</label>
+      <select id="from">
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+        <option value="UAH">UAH</option>
+      </select>
+
+      <label for="to">У валюту:</label>
+      <select id="to">
+        <option value="UAH">UAH</option>
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+      </select>
+
+      <label for="amount">Сума:</label>
+      <input type="number" id="amount" placeholder="Введіть суму" required />
+
+      <button type="submit">Конвертувати</button>
+    </form>
+
+    <p id="result"></p>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
